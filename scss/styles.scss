@@ -1,0 +1,10 @@
+@use './abstracts' as a;
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: a.$clr-accent-600;
+    color: white;
+    border: 10px solid red;
+}
+
